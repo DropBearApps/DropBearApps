@@ -27,6 +27,16 @@ img.logo {
   display: block;
 }
 
+.icon {
+  display: block;
+  margin: 0 auto 10px;
+  width: 60px;
+  height: auto;
+}
+
+
+
+
 /* Title and headings */
 h1, h2 {
   text-align: center;
