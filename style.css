@@ -55,10 +55,12 @@ h1, h2 {
 /* Screenshot grid */
 .screenshots {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
+
 
 .screenshots img {
   width: 10%;
