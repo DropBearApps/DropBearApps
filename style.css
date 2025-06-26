@@ -15,10 +15,10 @@ header {
 }
 
 img.logo {
-  width: 100%;
+  width: auto;
   height: auto;
   display: block;
-  margin-bottom: 20px;
+ 
 }
 
 h1, h2 {
