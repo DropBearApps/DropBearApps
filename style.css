@@ -1,44 +1,47 @@
-/* style.css */
-
+/* Global Reset and Typography */
 body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   background: #ffffff;
   color: #333;
- 
 }
 
-
+/* Make main content centered with max width */
 main {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+/* Full-width banner image with no gaps */
 header {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 img.logo {
   width: 100%;
   height: auto;
   display: block;
- 
 }
 
+/* Title and headings */
 h1, h2 {
   text-align: center;
   color: #cc3366;
+  margin: 20px 0 10px;
 }
 
+/* App section layout */
 .app-section {
   margin: 40px 0;
   border-top: 1px solid #ddd;
   padding-top: 30px;
 }
 
+/* Screenshot grid */
 .screenshots {
   display: flex;
   flex-wrap: wrap;
@@ -52,6 +55,7 @@ h1, h2 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
+/* Support section */
 .support {
   margin: 60px 0 40px;
   padding: 20px;
