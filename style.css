@@ -73,16 +73,21 @@ h1, h2 {
 
 /* Support section */
 
+.footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
 .footer a {
-  color: #323df2; /* or any preferred accent color */
+  color: #323df2; /* Deep blue — you can replace with #323df2 if preferred */
   font-weight: bold;
   text-decoration: none;
-  text-align: center;
 }
 
 .footer a:hover {
   text-decoration: underline;
 }
+
 
 
 .support {
