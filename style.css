@@ -77,6 +77,7 @@ h1, h2 {
   color: #323df2; /* or any preferred accent color */
   font-weight: bold;
   text-decoration: none;
+  text-align: center;
 }
 
 .footer a:hover {
